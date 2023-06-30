@@ -9,6 +9,10 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
+
+env:  
+    TZ: Asia/Shanghai
+
 jobs:
   build:
     runs-on: ubuntu-22.04
